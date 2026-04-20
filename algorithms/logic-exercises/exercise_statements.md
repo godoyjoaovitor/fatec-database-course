@@ -4,7 +4,7 @@
 
 Write a program that reads two integer variables and swaps their contents.
 
-## 2) Student average by type (Regular / Special)
+## 2) student_grade_system.cpp
 
 Develop a program in C/C++ that reads a student's grades and their respective type:
 
@@ -33,7 +33,7 @@ The program must use the `switch` control structure to identify the student type
 - Average between 2.0 and 5.9 → `"Retake exam"`
 - Average below 2.0 → `"Failed"`
 
-## 3) Temperature conversion (Celsius to Fahrenheit/Kelvin)
+## 3) temperature_converter.cpp
 
 Develop an algorithm that reads a temperature in degrees Celsius and converts it to Fahrenheit (F) or Kelvin (K), depending on the user's choice. Use a `do...while` loop to ask if the user wants another conversion and restart the algorithm.
 
@@ -44,7 +44,7 @@ Develop an algorithm that reads a temperature in degrees Celsius and converts it
 **Example:**  
 `C = 25°C` → `F = 77°F`, `K = 298.15K`
 
-## 4) Piecewise function `f(x)`
+## 4) piecewise_function.cpp
 
 Create an algorithm that receives the value of `x`, calculates and prints `f(x)`:
 
@@ -53,7 +53,7 @@ f(x) = 2, if 1 < x ≤ 2
 f(x) = x², if 2 < x ≤ 3
 f(x) = x³, if x > 3
 
-## 5) Body Mass Index (BMI)
+## 5) bmi_calculator.cpp
 
 Develop a program that calculates the Body Mass Index (BMI) and determines the classification.
 
@@ -66,7 +66,7 @@ Develop a program that calculates the Body Mass Index (BMI) and determines the c
 - Overweight: `25 ≤ BMI < 29.9`  
 - Obesity: `BMI ≥ 30`
 
-## 6) Access code validation
+## 6) access_code_validation.cpp
 
 Create an algorithm that:
 
@@ -83,7 +83,7 @@ Create an algorithm that:
 | 235  | Employee         | "Basic access"     |
 | 322  | Visitor          | "Restricted access"|
 
-## 7) Menu with sum, average, multiplication
+## 7) math_operations_menu.cpp
 
 Write an algorithm that reads three numbers, displays a menu (Table 1), and returns the result of the chosen option. Use `do...while` to ask if the user wants to continue and to validate input. Use `switch` for the options.
 
@@ -95,7 +95,7 @@ Write an algorithm that reads three numbers, displays a menu (Table 1), and retu
 | 2    | Average       |
 | 3    | Multiplication|
 
-## 8) Freight classification
+## 8) freight_classification.cpp
 
 A logistics company needs to calculate the shipping type. Create a program in C/C++ that:
 
@@ -105,7 +105,7 @@ A logistics company needs to calculate the shipping type. Create a program in C/
   - **"Heavy freight"** → weight > 100 kg **or** distance > 500 km
   - **"Standard freight"** → otherwise
 
-## 9) Factory sector evaluation
+## 9) factory_sector_evaluation.cpp
 
 A factory has three sectors:  
 `1 = Assembly`, `2 = Finishing`, `3 = Packaging`.
