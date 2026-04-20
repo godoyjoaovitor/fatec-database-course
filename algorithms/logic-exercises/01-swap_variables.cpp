@@ -14,7 +14,7 @@ int main() {
     a = b;
     b = temp;
 
-    cout << "After swapping::" << "\n";
+    cout << "After swapping: " << "\n";
     cout << "First value = " << a << "\n";
     cout << "Second value = " << b << "\n";
 
